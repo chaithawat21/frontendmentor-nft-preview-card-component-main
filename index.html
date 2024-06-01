@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./style.css" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+
+<body class="min-h-[100svh] flex flex-col justify-center items-center bg-veryDarkBlueMainBG font-Outfit ">
+  <main>
+    <div class="card max-w-[19rem] p-[1.5rem] rounded-[20px]  bg-veryDarkBlueCardBG shadow-[0_20px_10px_20px_rgba(0,0,0,.15)]  " >
+      <div class="w-[16rem] h-[16rem] rounded-[10px] cursor-pointer">
+      <img class="equilibriu rounded-[10px]   static z-0  " src="./images/image-equilibrium.jpg" alt="equilibrium">
+      <div class="hover opacity-0 w-[16rem] h-[16rem] bg-cyanLight relative z-1 top-[-16rem] flex justify-center items-center rounded-[10px] cursor-pointer hover:opacity-[1]" >
+        <img class="view" src="./images/icon-view.svg" alt="view">
+      </div>
+      
+    </div>
+      <h1 class="haed text-white text-[1.2rem] font-semibold we pt-[1.5rem] cursor-pointer hover:text-cyan">Equilibrium #3429</h1>
+
+      <p class="desciption text-softBlue font-light pt-[1rem]">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="total flex flex-row justify-between pt-[1rem] pb-[1rem] border-b-[1px] border-veryDarkBlueLine  ">
+        <div class="price flex flex-row" >
+          <img src="./images/icon-ethereum.svg" alt="ethereum">
+          <p class="value-price  text-cyan text-[.8rem] pl-[.5rem]">0.041 ETH</p>
+        </div>
+        <div class="time flex flex-row">
+          <img src="./images/icon-clock.svg" alt="clock" class="">
+          <p class="value-time text-softBlue text-[.8rem] pl-[.5rem]">3 days left</p>
+        </div>
+      </div>
+      <div class="credit flex flex-row items-center text-center pt-[1rem]  gap-[1rem]" >
+        <img class="avatar w-[2rem] rounded-[50%] border-[1px] border-white" src="./images/image-avatar.png" alt="avatar">
+        <p class="text text-softBlue text-[.8rem] ">Creation of <span class="text-white cursor-pointer hover:text-cyan ">Jules Wyvern</span></p>
+      </div>
+    </div>
+  </main>
+  <footer class="absolute bottom-0 text-center text-white">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="mailto:chaithawat.contact@gmail.coom">Chaithawat Pinsuawn</a>.
+    </p>
+  </footer>
+</body>
+
+</html>

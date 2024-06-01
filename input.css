@@ -1,0 +1,20 @@
+
+
+:root {
+    --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --CyanLight: hsla(178, 100%, 50%,.5);
+  
+    --VeryDarkBlueMainBG: hsl(217, 54%, 11%);
+    --VeryDarkBlueCardBG: hsl(216, 50%, 16%);
+    --VeryDarkBlueLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  
+  
